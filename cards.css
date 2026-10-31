@@ -1,0 +1,13 @@
+[data-mwcf-hidden="1"] { display: none !important; }
+.mwcf-badge {
+  display: flex !important; align-items: center !important; gap: 5px !important;
+  width: fit-content !important; max-width: 100% !important; box-sizing: border-box !important;
+  margin: 7px 0 !important; padding: 5px 8px !important; border-radius: 7px !important;
+  border: 1px solid #d5dde4 !important; background: #f3f5f7 !important;
+  color: #394854 !important; font: 600 11px/1.35 system-ui, sans-serif !important;
+  text-decoration: none !important; cursor: pointer !important; overflow-wrap: anywhere !important;
+}
+.mwcf-badge[data-state="compatible"] { background: #e7f4ed !important; color: #174e35 !important; border-color: #a4cbb7 !important; }
+.mwcf-badge[data-state="incompatible"] { background: #fff1e6 !important; color: #754117 !important; border-color: #e7c4a5 !important; }
+.mwcf-badge:focus-visible { outline: 3px solid #285ec8 !important; outline-offset: 2px !important; }
+.mwcf-badge[hidden] { display: none !important; }
